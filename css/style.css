@@ -1,0 +1,103 @@
+/*common start*/
+body{
+	font-family: roboto ;
+	font-size:16px ;
+	font-weight: ;
+	color: ;
+}
+/*common end*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1920px;
+	margin: auto;
+}
+.header{
+	overflow: hidden;
+}
+.logo{
+	float: none;
+	margin-left: 50px;
+}
+nav{
+	float: right;
+}
+ul{
+
+	list-style-type: none;
+	margin-right: 50px;
+	padding: 20px;
+
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #00adee;
+	padding: 5px 20px;
+}
+.hr{
+	size: 1px;
+	color: gray;
+}
+.header1{
+	padding: 50px;
+	font-size: 50px;
+	font-weight: 800;
+	text-align: center;
+	color: #0f2656;
+}
+
+.header2{
+	font-size: 50px;
+	font-weight: 800;
+	text-align: center;
+	color: #008aff;
+}
+
+.paragraph1{
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	color: #0f2656;
+}
+
+.ils1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.mid{
+	overflow: hidden;
+	height: 10%;
+}
+.left{
+	float: left;
+	width: 49%;
+	text-align: right;
+	color: #f15767;
+}
+.left p{
+	color: #0f2656 ;
+}
+.right{
+	float: right;
+margin: 2px;
+	width: 49%;
+	color: #0f2656 ;
+}
+
+.footer{
+padding: 22px;
+	text-align: center;
+	color: white;
+	height:40px;
+	background-color: #00adee;
+
+}
